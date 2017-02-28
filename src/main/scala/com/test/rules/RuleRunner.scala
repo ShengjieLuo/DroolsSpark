@@ -46,7 +46,9 @@ object RuleRunner {
 	  }
 		  
 	  def GetKnowledgeSession() : StatefulKnowledgeSession = {
-		  var kbuilder : KnowledgeBuilder  = KnowledgeBuilderFactory.newKnowledgeBuilder()
+		  val config:KnowledgeBuilderConfiguration = KnowledgeBuilderFactory.newKnowledgeBuilderConfiguration()
+		  config.setProperty("drools.dialect.mvel.strict", "false")
+                  var kbuilder : KnowledgeBuilder  = KnowledgeBuilderFactory.newKnowledgeBuilder(config)
 		  kbuilder.add(ResourceFactory.newFileResource("/root/DroolsSpark/src/main/scala/com/test/rules/test.drl"), ResourceType.DRL)
                   println(kbuilder.getErrors().toString())
 		  var kbase : KnowledgeBase = KnowledgeBaseFactory.newKnowledgeBase()
