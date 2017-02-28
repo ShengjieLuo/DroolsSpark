@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/root/droolstest/}droolstest...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/root/DroolsSpark/}droolsspark...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: drools-project#drools-project_2.10;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for drools-project#drools-project_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies drools-project#drools-project_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2982cbe9[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62849a4f[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.5 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.5] org.scala-lang#scala-library;2.10.5[0m
@@ -16690,13 +16690,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.avro/avro/1.7.7/jars/avro.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.avro#avro;1.7.7!avro.jar (2296ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro;1.7.7!avro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.21!kryo.jar(bundle)[0m
@@ -16711,29 +16705,11 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-annotations;2.2.0!hadoop-annotations.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-cli#commons-cli;1.2!commons-cli.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.commons/commons-math/2.1/jars/commons-math.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-math;2.1!commons-math.jar (164ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] xmlenc#xmlenc;0.52!xmlenc.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/commons-codec/commons-codec/1.4/jars/commons-codec.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-codec#commons-codec;1.4!commons-codec.jar (70ms)[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/commons-lang/commons-lang/2.5/jars/commons-lang.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-lang#commons-lang;2.5!commons-lang.jar (89ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.4!commons-codec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-lang#commons-lang;2.5!commons-lang.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-auth;2.2.0!hadoop-auth.jar[0m
@@ -16757,13 +16733,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] asm#asm;3.1!asm.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jettison#jettison;1.1!jettison.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.sun.xml.bind#jaxb-impl;2.2.3-1!jaxb-impl.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.codehaus.jackson/jackson-jaxrs/1.8.3/jars/jackson-jaxrs.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-jaxrs;1.8.3!jackson-jaxrs.jar (81ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-jaxrs;1.8.3!jackson-jaxrs.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-xc;1.8.3!jackson-xc.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] stax#stax-api;1.0.1!stax-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.2.2!jaxb-api.jar[0m
@@ -16773,13 +16743,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.4.4!jackson-annotations.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.4.4!jackson-core.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.curator#curator-framework;2.4.0!curator-framework.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.zookeeper/zookeeper/3.4.5/jars/zookeeper.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar (132ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.curator#curator-client;2.4.0!curator-client.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;0.9.94!jline.jar[0m
@@ -16792,13 +16756,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.scala-lang/scala-reflect/2.10.4/jars/scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar (219ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-underfs-hdfs;0.8.2!tachyon-underfs-hdfs.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-underfs-s3;0.8.2!tachyon-underfs-s3.jar[0m
@@ -16807,19 +16765,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 18376ms :: artifacts dl 3592ms[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 compile produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 runtime produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 test produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 provided produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 optional produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 compile-internal produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 runtime-internal produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 test-internal produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 plugin produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 sources produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 docs produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 pom produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 scala-tool produced in /root/droolstest/target/resolution-cache/reports/drools-project-drools-project_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (18376ms resolve - 3592ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 18239ms :: artifacts dl 529ms[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 compile produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 runtime produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 test produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 provided produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 optional produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 compile-internal produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 runtime-internal produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 test-internal produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 plugin produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 sources produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 docs produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 pom produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 scala-tool produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (18239ms resolve - 529ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

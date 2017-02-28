@@ -40,7 +40,7 @@ object RuleRunner {
 		  
 	  def GetKnowledgeSession() : StatefulKnowledgeSession = {
 		  var kbuilder : KnowledgeBuilder  = KnowledgeBuilderFactory.newKnowledgeBuilder()
-                  var fis : FileInputStream = new FileInputStream("/root/droolstest/WeatherRules.drl")
+                  var fis : FileInputStream = new FileInputStream("/root/DroolsSpark/WeatherRules.drl")
 		  kbuilder.add(ResourceFactory.newInputStreamResource(fis), ResourceType.DRL)
 		  var kbase : KnowledgeBase = KnowledgeBaseFactory.newKnowledgeBase()
 		  kbase.addKnowledgePackages(kbuilder.getKnowledgePackages())
