@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mPackaging /root/droolstest/target/scala-2.10/drools-project_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/spark[0m
+[0m[[0mdebug[0m] [0m	  /root/droolstest/target/scala-2.10/classes/com/spark[0m
+[0m[[0mdebug[0m] [0m	com/spark/Temperature.class[0m
+[0m[[0mdebug[0m] [0m	  /root/droolstest/target/scala-2.10/classes/com/spark/Temperature.class[0m
+[0m[[0mdebug[0m] [0m	com/spark/RuleRunner$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	  /root/droolstest/target/scala-2.10/classes/com/spark/RuleRunner$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	com/spark/RuleRunner.class[0m
+[0m[[0mdebug[0m] [0m	  /root/droolstest/target/scala-2.10/classes/com/spark/RuleRunner.class[0m
+[0m[[0mdebug[0m] [0m	com/spark/RuleRunner$$anon$2.class[0m
+[0m[[0mdebug[0m] [0m	  /root/droolstest/target/scala-2.10/classes/com/spark/RuleRunner$$anon$2.class[0m
+[0m[[0mdebug[0m] [0m	com/spark/RuleRunner$.class[0m
+[0m[[0mdebug[0m] [0m	  /root/droolstest/target/scala-2.10/classes/com/spark/RuleRunner$.class[0m
+[0m[[0mdebug[0m] [0m	com[0m
+[0m[[0mdebug[0m] [0m	  /root/droolstest/target/scala-2.10/classes/com[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
