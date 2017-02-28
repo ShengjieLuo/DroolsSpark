@@ -1,6 +1,7 @@
-package com.spark
+package com.test.rules
 
 import java.io.FileInputStream
+import com.test.model.weather.Temperature
 import org.drools.KnowledgeBase
 import org.drools.KnowledgeBaseFactory
 import org.drools.builder.KnowledgeBuilder

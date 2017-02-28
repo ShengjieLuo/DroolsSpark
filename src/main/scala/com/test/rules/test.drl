@@ -1,0 +1,12 @@
+package com.test.rules
+ 
+import com.test.model.weather.Temperature
+
+
+rule "Too Hot"
+   dialect "mvel"
+   when
+      temp : Temperature( value > 85 )
+   then
+      System.out.println(" F is too hot."+" Declare HEAT WARNING!"); 
+end
