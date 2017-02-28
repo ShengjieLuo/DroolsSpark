@@ -18,7 +18,7 @@ object RuleRunner {
 	  def main(args : Array[String]) : Unit = {
 		  val line = "100,20"
 		  var ksession : StatefulKnowledgeSession = GetKnowledgeSession()
-                  val pairRDD = line.split(",").map(p => p.toInt).map(p => new Temperature{ def value = p}).map(p => ksession.insert(p))
+                  val pairRDD = line.split(",").map(p => p.toInt).map(p => new Temperature{ def value = p}).foreach(p => ksession.insert(p))
 
                   println("Creating Knowledge Session")
 		  
