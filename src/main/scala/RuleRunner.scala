@@ -16,16 +16,17 @@ import org.drools.runtime.StatefulKnowledgeSession
 object RuleRunner {
 
 	  def main(args : Array[String]) : Unit = {
-		  val line = "100,20"
+		  
+                  //val line = "100,20"
 		  var ksession : StatefulKnowledgeSession = GetKnowledgeSession()
-                  val pairRDD = line.split(",").map(p => p.toInt).map(p => new Temperature{ def value = p}).foreach(p => ksession.insert(p))
+                  //val pairRDD = line.split(",").map(p => p.toInt).map(p => new Temperature{ def value = p}).foreach(p => ksession.insert(p))
 
                   println("Creating Knowledge Session")
 		  
 		  
 		  println("Creating and insertng Temperature")
 		  
-		 /*
+		 
 		  val shouldBeTooHot = new Temperature {
 			  def value = 100 
 		  }
@@ -36,8 +37,7 @@ object RuleRunner {
 		  
 		  ksession.insert(shouldBeTooHot)
 		  ksession.insert(shouldBeTooCold)
-		  */
-
+		  
 		  println("Firing all rules")
 		  
 		  ksession.fireAllRules()

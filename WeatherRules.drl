@@ -1,6 +1,8 @@
 package com.spark
  
 import com.spark.Temperature
+import java.io.File
+import java.io.BufferedWriter
 
 rule "Too Hot"
    dialect "mvel"
@@ -27,6 +29,8 @@ rule "General"
    when
       temp : Temperature( value < 200 )
    then
+      File file=new File("file.txt");
+      BufferedWriter bf=new BufferedWriter(new PrintWriter(file));
+      bf.append(temp.value.toString() + "Test Begin");
       System.out.println(temp.value.toString() + " Test Begin");
 end
-
