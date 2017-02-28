@@ -45,7 +45,7 @@ object RuleRunner {
 		  var kbase : KnowledgeBase = KnowledgeBaseFactory.newKnowledgeBase()
 		  kbase.addKnowledgePackages(kbuilder.getKnowledgePackages())
 		  var ksession : StatefulKnowledgeSession = kbase.newStatefulKnowledgeSession()
-		  var logger : KnowledgeRuntimeLogger = KnowledgeRuntimeLoggerFactory.newFileLogger(ksession."/root/DroolsSpark/drools.log")
+		  var logger : KnowledgeRuntimeLogger = KnowledgeRuntimeLoggerFactory.newFileLogger(ksession,"/root/DroolsSpark/drools.log")
 		  ksession
 	  }	
 }
