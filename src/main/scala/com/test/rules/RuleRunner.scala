@@ -9,6 +9,7 @@ import org.drools.builder.KnowledgeBuilderError
 import org.drools.builder.KnowledgeBuilderErrors
 import org.drools.builder.KnowledgeBuilderFactory
 import org.drools.builder.ResourceType
+import org.drools.builder._
 import org.drools.logger.KnowledgeRuntimeLogger
 import org.drools.logger.KnowledgeRuntimeLoggerFactory
 import org.drools.io.ResourceFactory
@@ -46,8 +47,8 @@ object RuleRunner {
 		  
 	  def GetKnowledgeSession() : StatefulKnowledgeSession = {
 		  var kbuilder : KnowledgeBuilder  = KnowledgeBuilderFactory.newKnowledgeBuilder()
-                  var fis : FileInputStream = new FileInputStream("/root/DroolsSpark/WeatherRules.drl")
-		  kbuilder.add(ResourceFactory.newInputStreamResource(fis), ResourceType.DRL)
+		  kbuilder.add(ResourceFactory.newFileResource("/root/DroolsSpark/src/main/scala/com/test/rules/test.drl"), ResourceType.DRL)
+                  println(kbuilder.getErrors().toString())
 		  var kbase : KnowledgeBase = KnowledgeBaseFactory.newKnowledgeBase()
 		  kbase.addKnowledgePackages(kbuilder.getKnowledgePackages())
 		  var ksession : StatefulKnowledgeSession = kbase.newStatefulKnowledgeSession()

@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for drools-project#drools-project_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies drools-project#drools-project_2.10;1.0->org.scala-lang#scala-library;2.10.5 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@546a3a15[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4db70bff[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.5 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.5] org.scala-lang#scala-library;2.10.5[0m
@@ -16765,7 +16765,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 18667ms :: artifacts dl 586ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 17746ms :: artifacts dl 573ms[0m
 [0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 compile produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 runtime produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 test produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-test.xml[0m
@@ -16779,5 +16779,5 @@
 [0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 docs produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 pom produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for drools-project#drools-project_2.10;1.0 scala-tool produced in /root/DroolsSpark/target/resolution-cache/reports/drools-project-drools-project_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (18667ms resolve - 586ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (17746ms resolve - 573ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
