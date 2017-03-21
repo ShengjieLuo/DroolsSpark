@@ -1,7 +1,7 @@
-package com.test.rules
+package com.program
 
 import java.io.FileInputStream
-import com.test.model.weather.Temperature
+import com.model.Temperature
 import org.drools.KnowledgeBase
 import org.drools.KnowledgeBaseFactory
 import org.drools.builder.KnowledgeBuilder
@@ -39,9 +39,7 @@ object RuleRunner {
 		  
 		  ksession.insert(shouldBeTooHot)
 		  ksession.insert(shouldBeTooCold)
-		  
 		  println("Firing all rules")
-		  
 		  ksession.fireAllRules()
 	  }
 		  
@@ -49,7 +47,7 @@ object RuleRunner {
 		  val config:KnowledgeBuilderConfiguration = KnowledgeBuilderFactory.newKnowledgeBuilderConfiguration()
 		  config.setProperty("drools.dialect.mvel.strict", "false")
                   var kbuilder : KnowledgeBuilder  = KnowledgeBuilderFactory.newKnowledgeBuilder(config)
-		  kbuilder.add(ResourceFactory.newFileResource("/root/DroolsSpark/src/main/scala/com/test/rules/test.drl"), ResourceType.DRL)
+		  kbuilder.add(ResourceFactory.newFileResource("/root/DroolsSpark/src/main/scala/com/rules/test.drl"), ResourceType.DRL)
                   println(kbuilder.getErrors().toString())
 		  var kbase : KnowledgeBase = KnowledgeBaseFactory.newKnowledgeBase()
 		  kbase.addKnowledgePackages(kbuilder.getKnowledgePackages())
