@@ -1,6 +1,6 @@
-package com.test.rules
+package com.rules
  
-import com.test.model.weather.Temperature
+import com.model.Temperature
 
 rule "Too Hot"
    dialect "mvel"

@@ -1,4 +1,4 @@
-package com.test.model.weather
+package com.model
 
 trait Temperature {
 	def value : Double
