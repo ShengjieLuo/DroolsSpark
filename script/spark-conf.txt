@@ -1,0 +1,2 @@
+spark.driver.extraClassPath <You_Old_ClassPath>:/<path>/DroolsSpark/lib/*
+spark.executor.extraClassPath <You_Old_ClassPath>:/<path>/DroolsSpark/lib/*

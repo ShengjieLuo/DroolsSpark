@@ -1,19 +1,25 @@
-[0m[[0minfo[0m] [0mPackaging /root/DroolsSpark/target/scala-2.10/drools-project_2.10-1.0.jar ...[0m
+[0m[[0minfo[0m] [0mPackaging /root/Drools/DroolsSpark/target/scala-2.11/drools-project_2.11-2.0.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	com[0m
-[0m[[0mdebug[0m] [0m	  /root/DroolsSpark/target/scala-2.10/classes/com[0m
-[0m[[0mdebug[0m] [0m	com/program/RuleRunner$.class[0m
-[0m[[0mdebug[0m] [0m	  /root/DroolsSpark/target/scala-2.10/classes/com/program/RuleRunner$.class[0m
-[0m[[0mdebug[0m] [0m	com/program/RuleRunner$$anon$2.class[0m
-[0m[[0mdebug[0m] [0m	  /root/DroolsSpark/target/scala-2.10/classes/com/program/RuleRunner$$anon$2.class[0m
-[0m[[0mdebug[0m] [0m	com/program[0m
-[0m[[0mdebug[0m] [0m	  /root/DroolsSpark/target/scala-2.10/classes/com/program[0m
-[0m[[0mdebug[0m] [0m	com/program/RuleRunner.class[0m
-[0m[[0mdebug[0m] [0m	  /root/DroolsSpark/target/scala-2.10/classes/com/program/RuleRunner.class[0m
 [0m[[0mdebug[0m] [0m	com/model/Temperature.class[0m
-[0m[[0mdebug[0m] [0m	  /root/DroolsSpark/target/scala-2.10/classes/com/model/Temperature.class[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com/model/Temperature.class[0m
+[0m[[0mdebug[0m] [0m	com/program[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com/program[0m
+[0m[[0mdebug[0m] [0m	com/program/RuleRunner$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com/program/RuleRunner$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	com/program/RuleRunner$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com/program/RuleRunner$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	com/program/RuleRunner$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com/program/RuleRunner$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	com/program/RuleRunner$$anonfun$3$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com/program/RuleRunner$$anonfun$3$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	com/program/RuleRunner$.class[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com/program/RuleRunner$.class[0m
+[0m[[0mdebug[0m] [0m	com[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com[0m
 [0m[[0mdebug[0m] [0m	com/model[0m
-[0m[[0mdebug[0m] [0m	  /root/DroolsSpark/target/scala-2.10/classes/com/model[0m
-[0m[[0mdebug[0m] [0m	com/program/RuleRunner$$anon$1.class[0m
-[0m[[0mdebug[0m] [0m	  /root/DroolsSpark/target/scala-2.10/classes/com/program/RuleRunner$$anon$1.class[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com/model[0m
+[0m[[0mdebug[0m] [0m	com/program/RuleRunner.class[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com/program/RuleRunner.class[0m
+[0m[[0mdebug[0m] [0m	com/program/RuleRunner$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /root/Drools/DroolsSpark/target/scala-2.11/classes/com/program/RuleRunner$$anonfun$2.class[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m

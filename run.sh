@@ -1,1 +1,1 @@
-spark-submit --class "com.program.RuleRunner" target/scala-2.10/drools-project_2.10-1.0.jar
+spark-submit --class "com.program.RuleRunner" target/scala-2.11/drools-project_2.11-2.0.jar
